@@ -13,4 +13,5 @@ it('loads', () => {
   // which play well with "Selector Playground" tool
   // how would you do select this element?
   cy.contains('[data-cy=app-title]', 'todos')
+  cy.screenshot()
 })
